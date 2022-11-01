@@ -1,15 +1,19 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-success-alert',
   templateUrl: './success-alert.component.html',
-  styleUrls: ['./success-alert.component.css']
+  styles: [`h2{
+        color: green;
+    padding: 20px;
+    background-color: palegreen;
+    border: 2px solid green;
+
+
+  }`]
 })
-export class SuccessAlertComponent implements OnInit {
+export class SuccessAlertComponent {
 
-  constructor() { }
 
-  ngOnInit(): void {
-  }
 
 }

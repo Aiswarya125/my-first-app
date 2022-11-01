@@ -1,3 +1,6 @@
 h2{
     color: red;
+    padding: 20px;
+    background-color: rgb(255, 133, 173);
+    border: 2px solid rgb(230, 21, 21);
 }
